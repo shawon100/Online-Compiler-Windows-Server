@@ -39,7 +39,8 @@
 			$output=shell_exec($out);
 		}
 		//echo "<pre>$output</pre>";
-              echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
+		echo "$output";
+              //echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
 	}
 	else if(!strpos($error,"error"))
 	{
@@ -53,7 +54,8 @@
 			$out=$out." < ".$filename_in;
 			$output=shell_exec($out);
 		}
-		                echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
+		echo "$output";
+		                //echo "<textarea id='div' class=\"form-control\" name=\"output\" rows=\"10\" cols=\"50\">$output</textarea><br><br>";
 	}
 	else
 	{
