@@ -26,15 +26,14 @@ At Last Replace Path in putenv() function by your path
 
 For Java Install Java
 ```
-
-```
 Go To Java Installed Folder bin Location And Copy The Path. Mine Is
 
 C:\Program Files (x86)\Java\jdk1.8.0_112\bin
 
 ```
 
-```
-At Last Replace Path in putenv() function by your path
 
 ```
+At Last Replace Path in putenv() function by your path
+```
+
